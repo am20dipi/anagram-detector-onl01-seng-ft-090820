@@ -8,6 +8,9 @@ class Anagram
   
   def match(array)
     @word = Array.new
-    
   end
+  
+  def detector(array)
+    detector = Anagram.new('ba')
+    ba = detector.match
 end
