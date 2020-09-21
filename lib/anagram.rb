@@ -12,5 +12,3 @@ class Anagram
 
 
 end
-
-Array.new.split(", ")
