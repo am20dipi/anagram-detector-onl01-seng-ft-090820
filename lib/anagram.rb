@@ -8,7 +8,7 @@ class Anagram
   
   def match(array)
     @word = Array.new
-    @word.split(", ")
   end
-  
+
+Array.new.split(", ")
 end
