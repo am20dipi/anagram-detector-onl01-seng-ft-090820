@@ -10,5 +10,7 @@ class Anagram
     @word = Array.new
   end
 
-Array.new.split(", ")
+
 end
+
+Array.new.split(", ")
