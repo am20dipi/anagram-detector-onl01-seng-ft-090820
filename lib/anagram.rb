@@ -8,7 +8,7 @@ class Anagram
   
   def match(array)
     @word = Array.new
-    array.select do |word|
+    #array.select do |word|
   end
   
 end
