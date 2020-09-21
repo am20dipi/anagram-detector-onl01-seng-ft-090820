@@ -8,11 +8,9 @@ class Anagram
   
   def match(array)
     @word = Array.new
+    array.select do |word|
+      (@word.split(" ").sort) == (element.split(" ").sort)
+    end
   end
   
-  def detector(array)
-    detector = Anagram.new('ba')
-    ba = detector.match
-    
-  end
 end
