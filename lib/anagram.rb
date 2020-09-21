@@ -13,5 +13,6 @@ class Anagram
   def detector(array)
     detector = Anagram.new('ba')
     ba = detector.match
+    
   end
 end
